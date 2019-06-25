@@ -6,8 +6,7 @@ print(argumentList)
 #pip install omdb
 
 import omdb
-omdb.set_default('apikey', 
-"b1b6806f")
+omdb.set_default('apikey', "b1b6806f")
 #client = omdb.OMDBClient(apikey="b1b6806f")
 response= omdb.search(argumentList,tomatoes=True)
 print(response)
