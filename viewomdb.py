@@ -1,7 +1,7 @@
 import getopt, sys
 fullCmdArguments = sys.argv
 argumentList = fullCmdArguments[1:]
-argumentList="avengers"
+#argumentList="avengers"
 print(argumentList)
 #pip install omdb
 
