@@ -1,7 +1,4 @@
-import getopt, sys
-fullCmdArguments = sys.argv
-argumentList = fullCmdArguments[1:]
-argumentList="avengers"
+argumentList=input("Enter Movie Name: ")
 print(argumentList)
 #pip install omdb
 
