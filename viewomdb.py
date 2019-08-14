@@ -9,7 +9,6 @@ if len(sys.argv)>1:
                 resp = requests.get(url=url, params=para).json()
                 print('Movie name: '+movie)
                 ratings_list=resp['Ratings']
-                print(ratings_list)
                 if len(ratings_list)>0:
                         data=list(filter(lambda rating: rating['Source']=='Rotten Tomatoes',ratings_list))
                         if len(data)==0:
