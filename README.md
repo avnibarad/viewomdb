@@ -12,7 +12,7 @@
 ### run the container by passing movie name as an argumnet
  docker run -it viewomdb the lion king
 
-### Outout
+### Output
  Movie name: the lion king
  Rotten Tomatoes Ratings: 93%
 
